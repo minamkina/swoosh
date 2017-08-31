@@ -163,10 +163,9 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUB-gd-7Bw">
-                                <rect key="frame" x="20" y="30" width="35" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUB-gd-7Bw">
+                                <rect key="frame" x="20" y="30" width="29" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="35" id="8jG-Tl-XJq"/>
                                     <constraint firstAttribute="height" constant="30" id="jyx-BF-DsA"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="backButton"/>
@@ -178,10 +177,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="rPv-hl-3g2" firstAttribute="trailing" secondItem="gBa-dZ-9Jx" secondAttribute="trailing" id="0Uc-eP-wXL"/>
+                            <constraint firstItem="fUB-gd-7Bw" firstAttribute="top" secondItem="gBa-dZ-9Jx" secondAttribute="top" constant="10" id="55N-8y-dUE"/>
                             <constraint firstItem="gBa-dZ-9Jx" firstAttribute="trailing" secondItem="B2d-3P-cxn" secondAttribute="trailing" constant="20" id="5mx-Tq-XN7"/>
                             <constraint firstItem="wpg-7h-hWM" firstAttribute="top" secondItem="gBa-dZ-9Jx" secondAttribute="top" constant="20" id="DvF-nW-KuE"/>
                             <constraint firstItem="gBa-dZ-9Jx" firstAttribute="bottom" secondItem="eJo-8e-8bw" secondAttribute="bottom" constant="20" id="GPC-Bl-pBb"/>
                             <constraint firstItem="gBa-dZ-9Jx" firstAttribute="trailing" secondItem="eJo-8e-8bw" secondAttribute="trailing" constant="20" id="HYA-6Z-yJy"/>
+                            <constraint firstItem="fUB-gd-7Bw" firstAttribute="leading" secondItem="gBa-dZ-9Jx" secondAttribute="leading" constant="20" id="MS5-az-Ouj"/>
                             <constraint firstItem="gBa-dZ-9Jx" firstAttribute="trailing" secondItem="wpg-7h-hWM" secondAttribute="trailing" id="Ol0-Su-9jy"/>
                             <constraint firstItem="rPv-hl-3g2" firstAttribute="leading" secondItem="gBa-dZ-9Jx" secondAttribute="leading" id="QCV-Yy-Yi8"/>
                             <constraint firstItem="wpg-7h-hWM" firstAttribute="leading" secondItem="gBa-dZ-9Jx" secondAttribute="leading" id="TtJ-ik-yXe"/>
