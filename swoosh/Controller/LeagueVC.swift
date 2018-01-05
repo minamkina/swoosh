@@ -10,7 +10,7 @@ import UIKit
 
 class LeagueVC: UIViewController {
     
-    var player: Player!
+    var player = Player()
 
     
     override func viewDidLoad() {
@@ -32,6 +32,7 @@ class LeagueVC: UIViewController {
     
     @IBAction func womensBtnTapped(_ sender: Any) {
         selectLeague(leagueType: "womens")
+        
     }
     
     @IBAction func coedBtnTapped(_ sender: Any) {
